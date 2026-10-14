@@ -1,47 +1,65 @@
 # Zihan Tang (Leonard Don)
 
-Quant strategy and trading-data developer building Python, Android, and
-full-stack research systems for market screening, backtesting, data validation,
-monitoring dashboards, and research-to-execution workflows.
+**Quantitative Research | Trading Systems | AI-assisted Engineering**
 
-I work across A-share and crypto research tooling, QMT/xtquant workflows, public
-market-data pipelines, event-study and DID research, matched controls,
-robustness checks, and local-first analytics apps. My public GitHub repositories
-are sanitized project showcases: no private company code, no account-connected
-trading systems, and no sensitive runtime data.
+I build quantitative research and trading systems across A-share equities,
+domestic futures and crypto perpetuals. My work connects strategy hypotheses,
+data pipelines, backtest validation, execution monitoring and post-trade
+attribution using Python/QMT and event-driven frameworks.
 
-Open to Quant Developer, Trading Data Analyst, Research Engineer, Data Analyst,
-and crypto/trading analytics roles in Singapore, Hong Kong, and remote APAC
-teams.
+I also support empirical financial research through event studies, DID,
+matched controls and robustness checks. Public repositories below are
+self-owned, sanitized showcases of research methods and engineering delivery.
+
+Open to Quantitative Research, Quant Development, Research Engineering,
+Trading Systems and AI Workflow roles in Singapore, Hong Kong, the UAE
+and remote teams.
 
 [LinkedIn](https://www.linkedin.com/in/zihan-tang-quant/) | [Public repositories](https://github.com/Leonard-Don?tab=repositories)
 
-## What to inspect first
+## Start here
 
-| Project | Signal for recruiters/interviewers | What to inspect |
+| Project | What it demonstrates | Suggested review |
 | --- | --- | --- |
-| [QuantTradingApp](https://github.com/Leonard-Don/QuantTradingApp) | Public Android stock-research demo using Kotlin, Room, Material Design, local portfolios, screening, review notes, and backtest-style model diagnostics. | Android architecture, local-first data boundary, Room models, research workflows, verification scripts. |
-| [rayn-strategy](https://github.com/Leonard-Don/rayn-strategy) | Offline crypto strategy research scaffold with bounded-grid and momentum engines, risk checks, public data fetchers, and regression tests. | Backtest engines, risk logic, config profiles, public data tooling, test coverage. |
-| [quant-trading-system](https://github.com/Leonard-Don/quant-trading-system) | Full-stack quantitative research workspace with FastAPI, React, backtesting, realtime market monitoring, industry heatmaps, and paper-trading workflows. | Backtest engine, realtime dashboards, industry analysis, CI, browser regression assets. |
-| [super-pricing-system](https://github.com/Leonard-Don/super-pricing-system) | Asset-pricing and macro mispricing research system with workflow orchestration, alternative-data clusters, and Quant Lab experiments. | Pricing models, macro-factor pipelines, public summaries, E2E research tests. |
-| [index-inclusion-research](https://github.com/Leonard-Don/index-inclusion-research) | Empirical-finance research toolkit with event studies, matched controls, permutation tests, clustered SE, and an honest null-result narrative. | Research design, reproducible pipeline, robustness tables, dashboard, limitations docs. |
-| [etf-512400](https://github.com/Leonard-Don/etf-512400) | Local-first ETF research console for realtime quotes, NAV/fallback checks, factor signals, source health, and strategy validation. | React/Vite research surface, realtime fallback contract, snapshot health CLI. |
-| [yieldwise](https://github.com/Leonard-Don/yieldwise) | Secondary analytics project showing geospatial data modeling, PostGIS workflows, maps, candidate review queues, and local decision memos. | FastAPI/PostGIS schema, staged refresh jobs, spatial analysis, local-first data boundary. |
+| [quant-trading-system](https://github.com/Leonard-Don/quant-trading-system) | A-share research infrastructure with backtesting, realtime market monitoring, industry heatmaps and paper-trading workflows. | Backtest logic, factor validation, data fallbacks, screenshots and regression tests. |
+| [super-pricing-system](https://github.com/Leonard-Don/super-pricing-system) | Asset-pricing and macro research platform with CAPM/FF3/DCF experiments, macro-factor dashboards and evidence-quality diagnostics. | Pricing models, research APIs, workflow orchestration and frontend/backend integration. |
+| [index-inclusion-research](https://github.com/Leonard-Don/index-inclusion-research) | Empirical-finance toolkit for event studies, matched controls, permutation tests and clustered standard errors. | Research design, reproducible pipelines, robustness tables and limitations. |
+| [rayn-strategy](https://github.com/Leonard-Don/rayn-strategy) | Offline crypto research scaffold with bounded-grid and momentum backtests, risk checks and public-data tooling. | Backtest engines, accounting assumptions, configuration profiles and regression tests. |
+
+## Additional research and trading-system experience
+
+- **A-share strategies:** sector rotation, call-auction signals, CSI 500 enhancement and a multi-asset martingale-grid cash pool; model holdings, costs and execution constraints and compare against explicit controls.
+- **Domestic futures CTA:** event-driven research with contract rolls, settlement, margin and close-today fees; cost-aware walk-forward validation, paper/backtest reconciliation and a CTP adapter.
+- **Crypto perpetuals:** Freqtrade research with 1h signals and a 1m exit adapter; shared-wallet, fee, funding and fill/equity checks, plus Docker deployment, monitoring and recovery.
+
+These systems include private research and company work; the public repos are
+separate showcases. Research backtests, paper execution and live performance
+are distinct forms of evidence.
+
+## How I use AI in engineering
+
+I organize Codex, Claude Code, MCP and reusable skills/plugins around a
+concrete delivery loop:
+
+1. Break down the task and define trading rules, data assumptions and acceptance criteria.
+2. Use agents for implementation, debugging and code review.
+3. Check outputs with automated tests, regression comparisons and research/accounting validation.
+4. Review the evidence and document deployment or handover decisions.
+
+I own the architecture, trading logic, research validity and final validation.
+AI-assisted implementation is supported by inspectable code and tests.
 
 ## Core stack
 
-Python, SQL, Pandas, NumPy, QMT/xtquant, Kotlin, Android, Room, FastAPI,
-React/TypeScript, PostgreSQL/PostGIS, TimescaleDB, Redis/Celery, GitHub Actions,
-Playwright, event studies, causal inference, backtesting, data validation, and
-dashboard QA.
+- **Research:** Python, SQL, pandas/NumPy, scikit-learn/statsmodels, causal backtesting, walk-forward validation, factor IC and event studies.
+- **Trading and engineering:** QMT/xtquant, Freqtrade, FastAPI, React/TypeScript, PostgreSQL/TimescaleDB, Redis/Celery, Docker, GitHub Actions and Playwright.
+- **AI workflows:** Codex, Claude Code, MCP, reusable skills/plugins, implementation review and regression validation.
 
-## How I build
+## Other engineering projects
 
-- Start from a concrete research or trading workflow, then make the data path inspectable.
-- Keep source freshness, schema contracts, and fallback behavior visible instead of hiding uncertainty.
-- Prefer small, reproducible loops: define the hypothesis, build the pipeline, test the signal, expose the assumptions, and make the result easy for another person to review.
-- Keep public repos account-disconnected and reviewable, with runtime state, private credentials, and company-specific data removed.
+- [QuantTradingApp](https://github.com/Leonard-Don/QuantTradingApp): Android stock-research demo with Kotlin, Room, local screening and review notes.
+- [etf-512400](https://github.com/Leonard-Don/etf-512400): local-first ETF research console with quotes, NAV checks, factor signals and source-health diagnostics.
+- [yieldwise](https://github.com/Leonard-Don/yieldwise): geospatial analytics with PostGIS, maps, candidate queues and local research memos.
 
-Private/company code is not published here. Public repositories are self-owned,
-sanitized projects intended to show engineering judgment, research discipline,
-and end-to-end execution.
+Private/company code, credentials, account-connected trading systems and
+sensitive runtime data are not published here.
